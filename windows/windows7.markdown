@@ -3,9 +3,9 @@ step 1. Download windows7's .iso file.
 
 step 2. If you are windows7 you can use "Windows 7 USB/DVD Download Tool" to make your bootable USB drives.
 		
-Here, we make bootable USB by *dd* command, you can input *sudo dd if=(.iso file position) of=(usb file position)*
+Here, we make bootable USB by **dd** command, you can input **sudo dd if=(.iso file position) of=(usb file position)**
 		
-For example *dd if=/home/user/desktop/window7.iso of=/dev/sdb1*
+For example **dd if=/home/user/desktop/window7.iso of=/dev/sdb1**
 
 step 3. Insert your usb and turn on the computer you want to install
 
